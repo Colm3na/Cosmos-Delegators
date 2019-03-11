@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Script para importar wallet
+#
+# Comando:
+# gaiacli keys add --recover <nombreWallet>
+#
+
+echo "¿Qué nombre quieres ponerle a la wallet?"
+read name
+
+gaiacli keys add --recover $name

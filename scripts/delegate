@@ -1,8 +1,9 @@
 #!/bin/bash
 #
-#Script para delegar fondos, sustituir las variables
+# Script para delegar fondos, sustituir las variables
 #
-#gaiacli tx staking delegate <validatorAddress> <amountToBond> --from <delegatorKeyName> --gas auto --gas-prices <gasPrice> --fees 1000photino
+# Comando:
+# gaiacli tx staking delegate <validatorAddress> <amountToBond> --from <delegatorKeyName> --gas auto --gas-prices <gasPrice> --fees 1000photino
 #
 ##Variables:
 #
