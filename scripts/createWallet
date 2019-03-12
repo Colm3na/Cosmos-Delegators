@@ -6,6 +6,6 @@
 # gaiacli keys add <nombreWallet>
 #
 echo "¿Qué nombre quieres ponerle a la wallet?"
-read name
+read -r name
 
-gaiacli keys add $name
+gaiacli keys add "${name}"

@@ -8,6 +8,6 @@
 gaiacli keys list
 
 echo  "¿Qué wallet quieres usar?"
-read wallet
+read -r wallet
 
-gaiacli query account $wallet --trust-node=true
+gaiacli query account "${wallet}" --trust-node=true
