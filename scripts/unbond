@@ -22,4 +22,4 @@ read -r validator
 echo "¿Qué cantidad quieres desvincular?"
 read -r amount
 
-gaiacli tx staking unbond "${validator}" "${amount}" --from="${wallet}" --chain-id="${chain_id}" --fees=10000photino
+gaiacli tx staking unbond "${validator}" "${amount}" --from="${wallet}" --chain-id="${chain_id}" --fees=10000photino -y
