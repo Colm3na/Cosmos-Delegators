@@ -5,12 +5,15 @@ _Esta información ha sido traducida del repositorio de [Cosmos](https://cosmos.
 
 En este repositorio se puede encontrar algunos scripts para ayudar a gestionar los fondos para la mainnet de Cosmos.
 
-
-## Guía para el Delegador (CLI):
-
+<sumary>
+<h1>Guía para el Delegador (CLI):</h1>
+</sumary>
+<details>
 Este documento contiene toda la información necesaria para que los delegadores interactúen con el Cosmos Hub a través de la Interfaz Comando-Línea (CLI).
-
+<br>
 También contiene instrucciones sobre cómo administrar las cuentas, restaurar las cuentas desde la recaudación de fondos y usar un dispositivo LedgerNano.
+</details>
+
 
 ## Cuentas de Cosmos:
 
@@ -43,9 +46,11 @@ Los siguientes pasos deben realizarse en un dispositivo de ledger no inicializad
 _Su ledger está ahora correctamente configurado con su mnemotécnico de recaudación de fondos! No pierdas este mnemotécnico! Si su Ledger está comprometida, siempre puede restaurar un nuevo dispositivo utilizando la misma mnemotécnica._
 
 
-## Creando una cuenta:
-
+<details>
+<sumary>##Creando una cuenta:</sumary>
+<br>
 _Para crear una cuenta, sólo necesitas tener instalado `gaiacli`. Antes de crearlo, necesita saber dónde desea almacenar e interactuar con sus claves privadas. Las mejores opciones son almacenarlas en un ordenador dedicado sin conexión o en una Ledger wallet. Almacenarlas en su computadora en línea implica más riesgo, ya que cualquiera que se infiltre en su computadora a través de Internet podría extraer sus claves privadas y robar sus fondos._
+</details>
 
 ### Usando una Ledger wallet:
 
