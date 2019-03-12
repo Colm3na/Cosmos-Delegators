@@ -1,7 +1,7 @@
 # Cosmos Delegators
-![Cosmos](/images/cosmosLogo2.svg)
+![Cosmos](/images/cosmosLogo.png)
 
-_La informacion ha sido traducida del repositorio de [Cosmos](https://cosmos.network/docs/gaia/delegator-guide-cli.html#table-of-contents)_
+_Esta información ha sido traducida del repositorio de [Cosmos](https://cosmos.network/docs/gaia/delegator-guide-cli.html#table-of-contents)_
 
 En este repositorio se puede encontrar algunos scripts para ayudar a gestionar los fondos para la mainnet de Cosmos.
 
