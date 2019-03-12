@@ -9,6 +9,8 @@
 #
 chain_id=`curl -s http://localhost:26657/status | jq -r '.result.node_info.network'`
 
+gaiacli keys list
+
 echo "¿Qué wallet quieres usar?"
 read wallet
 
