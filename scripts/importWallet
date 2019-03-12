@@ -7,6 +7,6 @@
 #
 
 echo "¿Qué nombre quieres ponerle a la wallet?"
-read name
+read -r name
 
-gaiacli keys add --recover $name
+gaiacli keys add --recover "$name"
