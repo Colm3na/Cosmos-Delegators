@@ -132,18 +132,18 @@ Se le pedirá que introduzca una frase de contraseña que se utiliza para cifrar
 
 1. Clonamos el repositorio en nuestro ordenador:
 
-$ `git clone https://github.com/Colm3na/Cosmos-Delegators.git`
+    $ `git clone https://github.com/Colm3na/Cosmos-Delegators.git`
 
 2. Entramos en el directorio que contiene los scripts y le damos permisos de ejecución (`chmod +x`):
 
-$ `cd Cosmos-Delegators/scripts/`
+    $ `cd Cosmos-Delegators/scripts/`
 
-$ `chmod +x balance createWallet delegate importWallet install redelegate sendtx txOffline unbond validators`
+    $ `chmod +x balance createWallet delegate importWallet install redelegate sendtx txOffline unbond validators`
 
 3. Ejecutamos los scripts poniendo `./` + el nombre del script (debemos estar en el directorio scripts):
 
-> Ej:
-$ `./balance`
+    > Ej:
+    $ `./balance`
 
 </details>
 </sumary>
