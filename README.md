@@ -123,4 +123,4 @@ Se le pedirá que introduzca una frase de contraseña que se utiliza para cifrar
 <br>
 
 
-**En [este](/scripts/) directorio se pueden encontrar algunos scripts para ayudar a gestionar los fondos de Cosmos.
+**En [este](/scripts/) directorio se pueden encontrar algunos scripts para ayudar a gestionar los fondos de Cosmos.**
