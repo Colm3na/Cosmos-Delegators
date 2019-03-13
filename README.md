@@ -120,5 +120,5 @@ Se le pedirá que introduzca una frase de contraseña que se utiliza para cifrar
 </details>
 </sumary>
 
-En este repositorio se puede encontrar algunos scripts para ayudar a gestionar los fondos de Cosmos.
+En [este](/scripts/) directorio se pueden encontrar algunos scripts para ayudar a gestionar los fondos de Cosmos.
 
