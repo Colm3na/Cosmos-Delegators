@@ -1,22 +1,29 @@
-# Cosmos Delegators
-![Cosmos](/images/cosmosLogo.png)
+
+<h1 align="center">Cosmos Delegators</h1>
+
+
+<p align="center"> 
+<img src="/images/cosmosLogo.png">
+</p>
+
 
 _Esta información ha sido traducida del repositorio de [Cosmos](https://cosmos.network/docs/gaia/delegator-guide-cli.html#table-of-contents)_
 
-En este repositorio se puede encontrar algunos scripts para ayudar a gestionar los fondos para la mainnet de Cosmos.
-
 <sumary>
-<h1>Guía para el Delegador (CLI):</h1>
+  
+<h1 align="center">Guía para el Delegador (CLI):</h1>
 </sumary>
 <details>
+ 
 Este documento contiene toda la información necesaria para que los delegadores interactúen con el Cosmos Hub a través de la Interfaz Comando-Línea (CLI).
+
 <br>
 
 _También contiene instrucciones sobre cómo administrar las cuentas, restaurar las cuentas desde la recaudación de fondos y usar un dispositivo LedgerNano._
 </details>
 
 <sumary>
-<h2>Cuentas de Cosmos:</h2>
+<h2 align="center">Cuentas de Cosmos:</h2>
 <br>
 <details>
 En el centro de cada cuenta del Cosmos, hay una semilla, que toma la forma de una mnemotecnia de 12 o 24 palabras. Desde esta mnemotecnia, es posible crear cualquier número de cuentas Cosmos, es decir, pares de claves privadas/llaves públicas. Esto se denomina billetera HD (ver <a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">BIP32</a> para más información sobre la especificación de la billetera HD)
@@ -26,7 +33,7 @@ _Los fondos almacenados en una cuenta son controlados por la clave privada. Esta
 </sumary>
 
 <sumary>
-<h2>Restaurar una cuenta de la recaudación de fondos:</h2>
+<h2 align="center">Restaurar una cuenta de la recaudación de fondos:</h2>
 <br>
 <details>
 
@@ -35,7 +42,7 @@ _Si usted participó en la recaudación de fondos, debe tener en su poder una mn
 </sumary>
 
 <sumary>
-<h2>En una Ledger:</h2>
+<h2 align="center">En una Ledger:</h2>
 <br>
 <details>
 En el núcleo de un dispositivo Ledger, hay una mnemotécnica utilizada para generar cuentas en múltiples cadenas de bloques (incluyendo el Cosmos Hub). Normalmente, creará una nueva mnemotécnica cuando inicialice el dispositivo Ledger. Sin embargo, es posible decirle al dispositivo Ledger que utilice un mnemotécnico proporcionado por el usuario. Sigamos adelante y veamos cómo puedes introducir la mnemotécnica que obtuviste durante la recaudación de fondos como la semilla de tu dispositivo Ledger.
@@ -60,7 +67,7 @@ _Su ledger está ahora correctamente configurado con su mnemotécnico de recauda
 
 
 <sumary>
-<h2>Creando una cuenta:</h2>
+<h2 align="center">Creando una cuenta:</h2>
 <details>
 
 _Para crear una cuenta, sólo necesitas tener instalado `gaiacli`. Antes de crearlo, necesita saber dónde desea almacenar e interactuar con sus claves privadas. Las mejores opciones son almacenarlas en un ordenador dedicado sin conexión o en una Ledger wallet. Almacenarlas en su computadora en línea implica más riesgo, ya que cualquiera que se infiltre en su computadora a través de Internet podría extraer sus claves privadas y robar sus fondos._
@@ -68,7 +75,7 @@ _Para crear una cuenta, sólo necesitas tener instalado `gaiacli`. Antes de crea
 </sumary>
 
 <sumary>
-<h2>Usando una Ledger wallet:</h2>
+<h2 align="center">Usando una Ledger wallet:</h2>
 <details>
 
 Al inicializar la Ledger, se genera una mnemotécnica de 24 palabras que se almacena en el dispositivo. Esta mnemotécnica es compatible con Cosmos y de ella se pueden derivar cuentas del Cosmos. Por lo tanto, todo lo que tienes que hacer es hacer tu libro de contabilidad compatible con gaiacli. Para ello, debe seguir los siguientes pasos:
@@ -94,7 +101,7 @@ gaiacli keys add <NombreDeLaCuenta> --ledger
 
 
 <sumary>
-<h2>En un ordenador:</h2>
+<h2 align="center">En un ordenador:</h2>
 <details>
 
 Para restaurar una cuenta utilizando una nemotécnica de recaudación de fondos y almacenar la clave privada cifrada asociada en un ordenador, utilice el siguiente comando:
@@ -111,5 +118,7 @@ Se le pedirá que introduzca una frase de contraseña que se utiliza para cifrar
 </details>
 </sumary>
 
-En este repositorio se puede encontrar algunos scripts para ayudar a gestionar los fondos de Cosmos.
+<br>
 
+
+**En [este](/scripts/) directorio se pueden encontrar algunos scripts para ayudar a gestionar los fondos de Cosmos.**
