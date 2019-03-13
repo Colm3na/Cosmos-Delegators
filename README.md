@@ -122,3 +122,28 @@ Se le pedirá que introduzca una frase de contraseña que se utiliza para cifrar
 
 
 **En [este](/scripts/) directorio se pueden encontrar algunos scripts para ayudar a gestionar los fondos de Cosmos.**
+
+<sumary>
+<h2 align="center">¿Como usar los scripts?</h2>
+<br>
+<details>
+
+* Para poder usar los scripts necesitamos clonar el repositorio y darle permisos de ejecución a los mismos.
+
+1. Clonamos el repositorio en nuestro ordenador:
+
+$ `git clone https://github.com/Colm3na/Cosmos-Delegators.git`
+
+2. Entramos en el directorio que contiene los scripts y le damos permisos de ejecución (`chmod +x`):
+
+$ `cd Cosmos-Delegators/scripts/`
+
+$ `chmod +x balance createWallet delegate importWallet install redelegate sendtx txOffline unbond validators`
+
+3. Ejecutamos los scripts poniendo `./` + el nombre del script (debemos estar en el directorio scripts):
+
+> Ej:
+$ `./balance`
+
+</details>
+</sumary>
