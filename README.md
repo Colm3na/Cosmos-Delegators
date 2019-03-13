@@ -9,8 +9,6 @@
 
 _Esta información ha sido traducida del repositorio de [Cosmos](https://cosmos.network/docs/gaia/delegator-guide-cli.html#table-of-contents)_
 
-En este repositorio se puede encontrar algunos scripts para ayudar a gestionar los fondos para la mainnet de Cosmos.
-
 <sumary>
   
 <h1 align="center">Guía para el Delegador (CLI):</h1>
