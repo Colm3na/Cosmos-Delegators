@@ -1,5 +1,8 @@
 # Cosmos Delegators
-![Cosmos](/images/cosmosLogo.png)
+<p align="center"> 
+<img src="/images/cosmosLogo.png">
+</p>
+
 
 _Esta información ha sido traducida del repositorio de [Cosmos](https://cosmos.network/docs/gaia/delegator-guide-cli.html#table-of-contents)_
 
