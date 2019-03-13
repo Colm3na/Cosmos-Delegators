@@ -94,7 +94,7 @@ gaiacli keys add <NombreDeLaCuenta> --ledger
 
 
 <sumary>
-<h1>En un ordenador:</h1>
+<h2>En un ordenador:</h2>
 <details>
 
 Para restaurar una cuenta utilizando una nemotécnica de recaudación de fondos y almacenar la clave privada cifrada asociada en un ordenador, utilice el siguiente comando:
