@@ -110,3 +110,6 @@ Se le pedirá que introduzca una frase de contraseña que se utiliza para cifrar
 * Puede añadir el indicador opcional `--account` para especificar la ruta (0, 1, 2,...) que desea utilizar para generar su cuenta. Por defecto, se genera la cuenta `0`.
 </details>
 </sumary>
+
+En este repositorio se puede encontrar algunos scripts para ayudar a gestionar los fondos de Cosmos.
+
