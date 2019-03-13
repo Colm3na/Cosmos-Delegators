@@ -11,15 +11,18 @@ En este repositorio se puede encontrar algunos scripts para ayudar a gestionar l
 <details>
 Este documento contiene toda la información necesaria para que los delegadores interactúen con el Cosmos Hub a través de la Interfaz Comando-Línea (CLI).
 <br>
-También contiene instrucciones sobre cómo administrar las cuentas, restaurar las cuentas desde la recaudación de fondos y usar un dispositivo LedgerNano.
+<i>También contiene instrucciones sobre cómo administrar las cuentas, restaurar las cuentas desde la recaudación de fondos y usar un dispositivo LedgerNano.</i>
 </details>
 
-
-## Cuentas de Cosmos:
-
-_En el centro de cada cuenta del Cosmos, hay una semilla, que toma la forma de una mnemotecnia de 12 o 24 palabras. Desde esta mnemotecnia, es posible crear cualquier número de cuentas Cosmos, es decir, pares de claves privadas/llaves públicas. Esto se denomina billetera HD (ver [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) para más información sobre la especificación de la billetera HD)_
+<sumary>
+<h2>Cuentas de Cosmos:</h2>
+<br>
+<details>
+En el centro de cada cuenta del Cosmos, hay una semilla, que toma la forma de una mnemotecnia de 12 o 24 palabras. Desde esta mnemotecnia, es posible crear cualquier número de cuentas Cosmos, es decir, pares de claves privadas/llaves públicas. Esto se denomina billetera HD (ver [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) para más información sobre la especificación de la billetera HD)
 
 _Los fondos almacenados en una cuenta son controlados por la clave privada. Esta clave privada se genera utilizando una función unidireccional de la mnemotécnica. Si pierde la clave privada, puede recuperarla usando la mnemotécnica. Sin embargo, si pierde la mnemotécnica, perderá el acceso a todas las claves privadas derivadas. Del mismo modo, si alguien obtiene acceso a tu mnemotécnica, obtiene acceso a todas las cuentas asociadas._
+</details>
+</sumary>
 
 ## Restaurar una cuenta de la recaudación de fondos:
 
