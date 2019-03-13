@@ -12,10 +12,13 @@ _Esta información ha sido traducida del repositorio de [Cosmos](https://cosmos.
 En este repositorio se puede encontrar algunos scripts para ayudar a gestionar los fondos para la mainnet de Cosmos.
 
 <sumary>
+  
 <h1 align="center">Guía para el Delegador (CLI):</h1>
 </sumary>
 <details>
+ 
 Este documento contiene toda la información necesaria para que los delegadores interactúen con el Cosmos Hub a través de la Interfaz Comando-Línea (CLI).
+
 <br>
 
 _También contiene instrucciones sobre cómo administrar las cuentas, restaurar las cuentas desde la recaudación de fondos y usar un dispositivo LedgerNano._
