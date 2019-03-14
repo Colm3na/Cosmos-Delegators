@@ -1,5 +1,5 @@
 <sumary>
-<h1 align="center">Cómo enviar 1atom y perder 9atoms al mismo tiempo:fire:</h1>
+<h1 align="center">Cómo enviar 1atom y quemar 9atoms al mismo tiempo:fire:</h1>
 <br>
 <details>
 <h2 align="center">Primero hay que compilar una versión especial de gaiacli</h2>
