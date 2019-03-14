@@ -1,5 +1,5 @@
 <sumary>
-<h1 align="center">Cómo enviar 1atom y perder 9atom al mismo tiempo.</h1>
+<h1 align="center">Cómo enviar 1atom y perder 9atom al mismo tiempo:fire:</h1>
 <br>
 <details>
 <h2 align="center">Primero hay que compilar una versión especial de gaiacli</h2>
@@ -58,10 +58,10 @@ gaiacli tx broadcast signed_limited_multisend.json --fees=5000uatom --from=YourK
 </details>
 </sumary>
 
-||-------------------------||
+
 
 <sumary>
-<h1 align="center">HowTo send 1atom and burn 9atoms at the same time.</h1>
+<h1 align="center">HowTo send 1atom and burn 9atoms at the same time.:fire:</h1>
 <br>
 <details>
   
