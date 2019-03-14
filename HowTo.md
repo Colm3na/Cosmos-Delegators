@@ -64,10 +64,8 @@ gaiacli tx broadcast signed_limited_multisend.json --fees=5000uatom --from=YourK
 <h1 align="center">HowTo send 1atom and burn 9atoms at the same time.:fire:</h1>
 <br>
 <details>
-  
 <h2 align="center">Firtly you have to compile a special version of gaiacli</h2>
 
-<h2>Compiling steps:</h2
 
 ```
 mkdir -p ~/go/src/github.com/cosmos
@@ -80,7 +78,6 @@ make update_tools
 make get_vendor_deps
 make install
 ```
-
 > ::
 
 
