@@ -1,4 +1,5 @@
 
+<h2 align="center">Cómo enviar 1atom y perder 9atom al mismo tiempo.</h2>
 <h2 align="center">HowTo send 1atom and burn 9atom at the same time.</h2>
 
 #Primero hay que compilar una versión especial de gaiacli
@@ -29,14 +30,17 @@ vendor hash: 81cd66597752534f2724035e5444bf2394d32623
 build tags: netgo ledger
 go version go1.11.5 linux/amd64
 ```
+
 # Suponemos que ya tienes tu wallet importada en tu nodo.
 # It is supposed you have imported the wallet in your node.
 
 # Creamos la transacción especial que destruye 9atom y envía 1atom
 # Create de special TX that burns 9atoms and send 1atom
+
 ```
 gaiacli tx multisend <cosmos address  --from=YourKey --fees=5000uatom --chain-id=cosmoshub-1 > unsigned_limited_multisend.json
 ```
+
 # Firmamos la transacción
 # Sign the TX
 
