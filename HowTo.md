@@ -7,6 +7,7 @@
 
 Pasos:
 Compiling steps:
+
 ```
 mkdir -p ~/go/src/github.com/cosmos
 cd ~/go/src/github.com/cosmos
@@ -18,10 +19,13 @@ make update_tools
 make get_vendor_deps
 make install
 ```
+
 ```
 gaiacli version --long
 ```
-It should match this:
+
+# It should match this:
+
 ```
 gaiacli version --long
 cosmos-sdk: 0.33.0-1-ga08822d
