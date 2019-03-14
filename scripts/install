@@ -4,6 +4,10 @@
 #
 # Script para la instalacion de lo necesario para un nodo de Cosmos:
 #
+
+echo "¿Qué nombre le quieres poner a tu nodo?"
+read -r name
+
 sudo apt update && sudo apt -y upgrade
 sudo apt install -y make wget curl git gcc jq build-essential
 wget -c 'https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz' -O go1.11.5.linux-amd64.tar.gz
@@ -23,3 +27,11 @@ mkdir -p $GOPATH/src/github.com/cosmos && cd $GOPATH/src/github.com/cosmos
 git clone https://github.com/cosmos/cosmos-sdk && cd cosmos-sdk/
 git checkout master
 make tools install
+
+gaiad init "${name}"
+
+rm -Rf .gaiad/config/genesis.json
+
+cd .gaiad/config/ && wget https://raw.githubusercontent.com/cosmos/launch/master/genesis.json
+
+gaiad unsafe-reset-all
