@@ -136,11 +136,11 @@ Se le pedirá que introduzca una frase de contraseña que se utiliza para cifrar
 
     `git clone https://github.com/Colm3na/Cosmos-Delegators.git`
 
-2. Entramos en el directorio que contiene los scripts y le damos permisos de ejecución (`chmod +x`):
+2. Entramos en el directorio que contiene los scripts y le damos permisos de ejecución a los scripts(`chmod +x`):
 
     `cd Cosmos-Delegators/scripts/`
 
-    `chmod +x balance createWallet delegate importWallet install redelegate sendtx txOffline unbond validators`
+    `chmod +x *`
 
 3. Ejecutamos los scripts poniendo `./` + el nombre del script (debemos estar en el directorio scripts):
 
