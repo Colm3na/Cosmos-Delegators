@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Made with love by Colm3na|N0∞D0|wiπΞl
+#
+# Script para importar wallet
+#
+# Comando:
+# gaiacli keys add <nombreWallet>
+#
+echo "¿Qué nombre quieres ponerle a la wallet?"
+read -r name
+
+gaiacli keys add "${name}"

@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+#
+# Made with love by Colm3na|N0∞D0|wiπΞl
+#
+# Script para mandar Atoms aunque nos arruinemos =)
+#
+# Recuerda que tiene que estar compilado con la versión:
+# https://github.com/cosmos/cosmos-sdk/tree/bez/limited-multisend-cmd
+#
+# gaiacli tx multisend <recipient> --from=<sender> --fees=<fees>
+
+gaiacli keys list
+
+echo "Qué wallet quieres usar?"
+read -r walet
+
+echo "¿A quien quieres mandar fondos?"
+read -r recipient
+
+gaiacli tx multisend "${recipient}" --from "${wallet}" --fees 10000uatom

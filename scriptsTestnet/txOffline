@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Made with love by Colm3na|N0∞D0|wiπΞl
+#
+# Script para ver el balance de una wallet
+#
+# Comando:
+# gaiacli tx staking delegate <validatorAddress> <amountToBond> --from <delegatorAddress> --gas auto --gas-prices <gasPrice> --generate-only > unsignedTX.json
+#

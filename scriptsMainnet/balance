@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Made with love by Colm3na|N0∞D0|wiπΞl
+#
+# Script para ver el balance de una wallet
+#
+# Comando:
+# gaiacli query account <wallet> --trust-node=true
+#
+gaiacli keys list
+
+echo  "¿Qué wallet quieres usar?"
+read -r wallet
+
+gaiacli query account "${wallet}" --trust-node=true

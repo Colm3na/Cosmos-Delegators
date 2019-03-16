@@ -1,0 +1,27 @@
+#!/bin/bash
+#
+# Made with love by Colm3na|N0∞D0|wiπΞl
+#
+# Script para hacer unbond
+#
+# Comando:
+# gaiacli tx staking unbond \
+#   --validator=<account_cosmosval> \
+#   --shares-amount=12.1 \
+#   --from=<key_name> \
+#   --chain-id=<chain_id>
+# Variables:
+chain_id=$(curl -s http://localhost:26657/status | jq -r '.result.node_info.network')
+
+gaiacli keys list
+
+echo "¿Qué wallet quieres usar?(cosmos123...)"
+read -r wallet
+
+echo "¿De que validador quieres desvincularte?(cosmosvaloper...)"
+read -r validator
+
+echo "¿Qué cantidad de uatom quieres desvincular?"
+read -r amount
+
+gaiacli tx staking unbond "${validator}" "${amount}"uatom --from="${wallet}" --chain-id="${chain_id}" --fees=5000uatom -y
