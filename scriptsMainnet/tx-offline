@@ -2,8 +2,26 @@
 #
 # Made with love by Colm3na|N0∞D0|wiπΞl
 #
-# Script para ver el balance de una wallet
+# Script para realizar una transacción offline
 #
 # Comando:
-# gaiacli tx staking delegate <validatorAddress> <amountToBond> --from <delegatorAddress> --gas auto --gas-prices <gasPrice> --generate-only > unsignedTX.json
+# gaiacli tx staking delegate <validatorAddress> <amountToBond> --from <delegatorAddress> --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice> --generate-only > unsignedTX.json
 #
+# Variables:
+chain_id=$(curl -s http://localhost:26657/status | jq -r '.result.node_info.network')
+
+gaiacli keys list
+
+echo "¿Qué wallet quieres usar?(cosmos123...)"
+read -r wallet
+
+echo "¿De qué validador quieres desvincularte?(cosmosvaloper...)"
+read -r oldvalid
+
+echo "¿A qué validador quieres vincularte?(cosmosvaloper...)"
+read -r newvalid
+
+echo "¿Qué cantidad quieres vincular?"
+read -r amount
+
+gaiacli tx staking delegate 
