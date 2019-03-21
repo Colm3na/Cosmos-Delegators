@@ -24,4 +24,4 @@ read -r validator
 echo "¿Qué cantidad de uatom quieres desvincular?"
 read -r amount
 
-gaiacli tx staking unbond "${validator}" "${amount}"uatom --from="${wallet}" --chain-id="${chain_id}" --fees=5000uatom -y
+gaiacli tx staking unbond "${validator}" "${amount}" --from="${wallet}" --chain-id="${chain_id}" --fees=5000uatom -y
