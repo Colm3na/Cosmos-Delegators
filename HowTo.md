@@ -38,7 +38,7 @@ go version go1.11.5 linux/amd64
 <h2>Creamos la transacción especial que destruye 9atom y envía 1atom</h2>
 
 ```
-gaiacli tx multisend <cosmos address  --from=YourKey --fees=5000uatom --chain-id=cosmoshub-1 > unsigned_limited_multisend.json
+gaiacli tx multisend <cosmos address>  --from=YourKey --fees=5000uatom --chain-id=cosmoshub-1 > unsigned_limited_multisend.json
 ```
 
 <h2>Firmamos la transacción:</h2>
@@ -101,7 +101,7 @@ go version go1.11.5 linux/amd64
 <h2>Create de special TX that burns 9atoms and send 1atom</h2>
 
 ```
-gaiacli tx multisend <cosmos address  --from=YourKey --fees=5000uatom --chain-id=cosmoshub-1 > unsigned_limited_multisend.json
+gaiacli tx multisend <cosmos address>  --from=YourKey --fees=5000uatom --chain-id=cosmoshub-1 > unsigned_limited_multisend.json
 ```
 
 <h2>Sign the TX</h2>
