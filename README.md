@@ -1,5 +1,7 @@
+<h2 align="center">Este repositorio está obsoleto por favor, vea <a href="https://github.com/Colm3na/Cosmos">este</a> otro.</h2>
 
-<h1 align="center">Cosmos Delegators</h1>
+
+<h1 align="center">Delegadores Cosmos</h1>
 
 
 <p align="center"> 
