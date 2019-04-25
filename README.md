@@ -1,4 +1,4 @@
-<h2 align="center">Este repositorio está obsoleto por favor, vea <a href="https://github.com/Colm3na/Cosmos">este</a> otro.</h2>
+<h2 align="center">:fire: Este repositorio está obsoleto por favor, diríjase a <a href="https://github.com/Colm3na/Cosmos">este</a> otro. :fire:</h2>
 
 
 <h1 align="center">Delegadores Cosmos</h1>
